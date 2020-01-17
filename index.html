@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="bg">
+    <center>
+        <div class="headermech">
+            <fieldset>
+                <legend>
+                    <h1>Welcome to Lucky 9!
+                    </h1>
+                </legend>
+                <h2 class="instruction">Mechanics: The object of the game is to have a higher hand-total than the dealer
+                    as closest to nine (9) as possible. </h2>
+            </fieldset>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center img-fluid">
+                <div class="col-6 col-md-4">
+                    <img class="randomImage img-responsive" src="assets/back.PNG">
+                </div>
+                <img class="randomImage2" src="assets/back.PNG">
+            </div>
+        </div>
+
+
+        <div id="alertDiv"></div>
+        <button class="btn btn-success" onclick="randomImg();randomImg2();luckyNine()">Start and Draw</button>
+        <script type="text/javascript" src="mechanics.js"></script>
+
+    </center>
+
+</body>
+
+</html>
